@@ -7,7 +7,7 @@ WORKDIR /src
 # install global packages
 RUN npm install -g nodemon
 
-# install local packages
+# install packages for project
 RUN npm install
 
 # Expose the 8080 port from the container
