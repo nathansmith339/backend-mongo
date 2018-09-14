@@ -1,0 +1,19 @@
+{
+  "name": "node-app-docker",
+  "version": "1.0.0",
+  "description": "A test Node.js server using Docker",
+  "author": {
+    "name": "Nathan Smith",
+    "email": "smithnathan339@gmail.com"
+  },
+  "license": "WTF",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "nodemon -e ./index.js --watch *.js"
+  },
+  "dependencies": {
+    "koa": "2.5.3",
+    "nodemon": "1.18.4"
+  }
+}
