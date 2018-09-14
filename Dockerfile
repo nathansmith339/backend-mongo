@@ -1,5 +1,5 @@
 # pull an image
-FROM node:8.9
+FROM node:8.11.3
 
 # set workdir in container
 WORKDIR /src
