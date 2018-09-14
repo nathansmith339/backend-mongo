@@ -2,7 +2,7 @@
 FROM node:8.9
 
 # set workdir in container
-WORKDIR /usr/src/app
+WORKDIR /src
 
 # install global packages
 RUN npm install -g nodemon
